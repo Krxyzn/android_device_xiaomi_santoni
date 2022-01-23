@@ -4,6 +4,9 @@ type vendor_camera_prop, property_type;
 # Dirac
 type dirac_prop, property_type;
 
+# Init
+vendor_internal_prop(vendor_init_prop)
+
 # Wlan
 vendor_internal_prop(vendor_wifi_prop)
 
