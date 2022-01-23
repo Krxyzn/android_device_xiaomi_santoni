@@ -10,3 +10,9 @@ persist.audio.dirac             u:object_r:dirac_prop:s0
 
 # WiFi
 wifi.active.interface           u:object_r:wifi_prop:s0
+
+# WiFi
+vendor.wlan.                    u:object_r:vendor_wifi_prop:s0
+
+# Xiaomi
+ro.vendor.xiaomi.	u:object_r:vendor_xiaomi_prop:s0
