@@ -392,9 +392,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf \
+    telephony
 
 # Ramdisk
 PRODUCT_PACKAGES += \
