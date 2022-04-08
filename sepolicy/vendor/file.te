@@ -50,7 +50,7 @@ type proc_touchpanel, fs_type, sysfs_type, proc_type;
 type sysfs_dt2w, sysfs_type, fs_type;
 
 # Custom
-type sysfs_msm_subsys, sysfs_type, fs_type;
+#type sysfs_msm_subsys, sysfs_type, fs_type;
 
 # XiaomiParts
 type sysfs_hgain, sysfs_type, fs_type;
