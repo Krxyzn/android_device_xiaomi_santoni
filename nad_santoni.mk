@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Inherit some common NusantaraOS stuff.
-$(call inherit-product, vendor/Nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Prebuilt apps
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
